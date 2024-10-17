@@ -1,5 +1,12 @@
 html,
 body {
+
+  /* Variables */
+  --primary: #B58851;
+  --secondary: #E5DBCF;
+
+
+
   min-height: 100vh;
   padding: 0;
   margin: 0;

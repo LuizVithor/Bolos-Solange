@@ -1,10 +1,5 @@
-import type { Metadata } from "next";
-import { Counter } from "./components/counter/Counter";
+import { Dashboard } from "@/common/Content/Dashboard";
 
 export default function IndexPage() {
-  return <Counter />;
+  return <Dashboard />;
 }
-
-export const metadata: Metadata = {
-  title: "Redux Toolkit",
-};
