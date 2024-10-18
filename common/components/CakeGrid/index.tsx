@@ -100,24 +100,96 @@ const CakeCard: React.FC<CakeCardProps> = ({ title, imageUrl, description }) => 
 const CakeGrid: React.FC = () => {
 
     const cakeImages = [
-        "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
-        "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
-        "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
-        "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
-        "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
-        "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
-        "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
-        "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
-        "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
-        "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
-        "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
-        "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
-        "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
-        "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
-        "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
-        "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
-        "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
-        "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
+        {
+            title: "Delicious Cake",
+            description: "A delicious cake from Unsplash",
+            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
+        },
+        {
+            title: "Delicious Cake",
+            description: "A delicious cake from Unsplash",
+            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
+        },
+        {
+            title: "Delicious Cake",
+            description: "A delicious cake from Unsplash",
+            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
+        },
+        {
+            title: "Delicious Cake",
+            description: "A delicious cake from Unsplash",
+            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
+        },
+        {
+            title: "Delicious Cake",
+            description: "A delicious cake from Unsplash",
+            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
+        },
+        {
+            title: "Delicious Cake",
+            description: "A delicious cake from Unsplash",
+            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
+        },
+        {
+            title: "Delicious Cake",
+            description: "A delicious cake from Unsplash",
+            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
+        },
+        {
+            title: "Delicious Cake",
+            description: "A delicious cake from Unsplash",
+            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
+        },
+        {
+            title: "Delicious Cake",
+            description: "A delicious cake from Unsplash",
+            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
+        },
+        {
+            title: "Delicious Cake",
+            description: "A delicious cake from Unsplash",
+            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
+        },
+        {
+            title: "Delicious Cake",
+            description: "A delicious cake from Unsplash",
+            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
+        },
+        {
+            title: "Delicious Cake",
+            description: "A delicious cake from Unsplash",
+            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
+        },
+        {
+            title: "Delicious Cake",
+            description: "A delicious cake from Unsplash",
+            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
+        },
+        {
+            title: "Delicious Cake",
+            description: "A delicious cake from Unsplash",
+            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
+        },
+        {
+            title: "Delicious Cake",
+            description: "A delicious cake from Unsplash",
+            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
+        },
+        {
+            title: "Delicious Cake",
+            description: "A delicious cake from Unsplash",
+            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
+        },
+        {
+            title: "Delicious Cake",
+            description: "A delicious cake from Unsplash",
+            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
+        },
+        {
+            title: "Delicious Cake",
+            description: "A delicious cake from Unsplash",
+            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
+        },
     ]
 
     return (
@@ -157,9 +229,9 @@ const CakeGrid: React.FC = () => {
                 {cakeImages?.map((imageUrl, index) => (
                     <Grid2 container justifyContent="center" alignItems="center" key={index}>
                         <CakeCard
-                            imageUrl={imageUrl}
-                            title="Delicious Cake"
-                            description="A delicious cake from Unsplash"
+                            title={imageUrl.title}
+                            imageUrl={imageUrl.imageUrl}
+                            description={imageUrl.description}
                         />
                     </Grid2>
                 ))}
