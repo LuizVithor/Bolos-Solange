@@ -101,96 +101,56 @@ const CakeGrid: React.FC = () => {
 
     const cakeImages = [
         {
-            title: "Delicious Cake",
-            description: "A delicious cake from Unsplash",
+            title: "trufado",
+            description: "Bolo trufado",
             imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
         },
         {
-            title: "Delicious Cake",
-            description: "A delicious cake from Unsplash",
-            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
+            title: "Murango",
+            description: "Bolo de morango",
+            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2024/10/21135251/Bolo-morango-home-300x222.png",
         },
         {
-            title: "Delicious Cake",
-            description: "A delicious cake from Unsplash",
-            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
+            title: "Chocolate",
+            description: "Bolo de chocolate",
+            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2024/05/24181730/20412_delicia_de_chocolate_fatia_235x235px.png",
         },
         {
-            title: "Delicious Cake",
-            description: "A delicious cake from Unsplash",
-            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
+            title: "Chocorango",
+            description: "Bolo de chocolate com morango",
+            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2023/02/01101339/147_235px.png",
         },
         {
-            title: "Delicious Cake",
-            description: "A delicious cake from Unsplash",
-            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
+            title: "Abacoco",
+            description: "Bolo de abacaxi com coco",
+            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/11/28111106/37_abacaxi_coco_bolo-branco_fatia.png",
         },
         {
-            title: "Delicious Cake",
-            description: "A delicious cake from Unsplash",
-            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
+            title: "ninho",
+            description: "Bolo de leite ninho",
+            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/11/28111114/54_delicia-de-leite_ii_bolo-branco_fatia.png",
         },
         {
-            title: "Delicious Cake",
-            description: "A delicious cake from Unsplash",
-            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
+            title: "Beijinho",
+            description: "Bolo de beijingo",
+            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/10/24180424/20412_beijinho_fatia_235x235px.png",
         },
         {
-            title: "Delicious Cake",
-            description: "A delicious cake from Unsplash",
-            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
+            title: "NinhoNutella",
+            description: "Bolo de ninho e nutella",
+            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/11/28111031/92_delicia-de-leite_c-creme-de-avela_i_bolo-chocolate_fatia.png",
         },
         {
-            title: "Delicious Cake",
-            description: "A delicious cake from Unsplash",
-            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
+            title: "Prestigio",
+            description: "Bolo de prestigio",
+            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/11/28111011/14_delicia-de-coco_bolo-chocolate_fatia.png",
         },
         {
-            title: "Delicious Cake",
-            description: "A delicious cake from Unsplash",
-            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
+            title: "Maracuja",
+            description: "Bolo de maracuja",
+            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/01110359/73_235px.png",
         },
-        {
-            title: "Delicious Cake",
-            description: "A delicious cake from Unsplash",
-            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
-        },
-        {
-            title: "Delicious Cake",
-            description: "A delicious cake from Unsplash",
-            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
-        },
-        {
-            title: "Delicious Cake",
-            description: "A delicious cake from Unsplash",
-            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
-        },
-        {
-            title: "Delicious Cake",
-            description: "A delicious cake from Unsplash",
-            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
-        },
-        {
-            title: "Delicious Cake",
-            description: "A delicious cake from Unsplash",
-            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
-        },
-        {
-            title: "Delicious Cake",
-            description: "A delicious cake from Unsplash",
-            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
-        },
-        {
-            title: "Delicious Cake",
-            description: "A delicious cake from Unsplash",
-            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
-        },
-        {
-            title: "Delicious Cake",
-            description: "A delicious cake from Unsplash",
-            imageUrl: "https://cdn.sodiedoces.com.br/wp-content/uploads/2021/09/25112733/20412_fotos_bolo_fatia_235x235px49.png",
-        },
-    ]
+]
 
     return (
         <Box
